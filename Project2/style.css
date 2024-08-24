@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+body{
+    background-color: black;
+}
+.head{
+    color:orange; 
+    text-align: center;
+    font-size: 75px;
+}
+
+.stopwatch{
+    display:flex;  
+      justify-content: center;   
+     align-items:center;  
+     flex-direction:column; 
+    min-height:65vh; 
+    font-size: 35px;
+    margin-left: 20px;
+   
+}
+.time{
+    padding:50px 60px;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    
+}
+.button1,.button2,.button3{
+    background-color: rgb(255, 77, 0);
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+.image1{
+    width:10%;
+    display: inline-block;
+    float:left;
+    
+
+}
+
+.button1:hover,.button2:hover,.button3:hover{
+    background-color: rgb(216, 223, 3);
+    color:black;
+}
+.head:hover{
+    color:brown;
+}
+
